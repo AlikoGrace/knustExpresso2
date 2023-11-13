@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Community from '../components/Community'
 import About from '../components/About'
 import Footer from '../components/Footer'
+import Services from '../components/Services'
 
 
 const HomeScreen = () => {
@@ -11,6 +12,7 @@ const HomeScreen = () => {
     <Header/>
     <Hero/>
     <About/>
+    <Services/>
     <Community/>
     <Footer/>
     
