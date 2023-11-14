@@ -1,5 +1,5 @@
-import avatars from '../assets/images/avatars.png'
-import Button from './Button'
+import avatars from '../../assets/images/avatars.png'
+import Button from '../shared/Button'
 
 const Community = () => {
   return (

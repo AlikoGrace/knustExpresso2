@@ -1,4 +1,4 @@
-import ToggleButton from "./ToggleButton"
+
 
 const Services = () => {
   return (
@@ -7,7 +7,7 @@ const Services = () => {
         The ultimate platform for <br />
          all research enthusiasts
         </h1>
-        <ToggleButton/>
+        
         
 
     </section>

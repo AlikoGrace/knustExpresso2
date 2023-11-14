@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeScreen from './screens/HomeScreen'
+import Home from './pages/Home'
 import { Outlet } from 'react-router-dom'
 
 const App = () => {

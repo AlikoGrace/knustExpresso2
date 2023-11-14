@@ -11,7 +11,7 @@ const Sidebar = () => {
       {
         !showSidebar?
         (   
-            <button className='fixed z-30 flex items-center cursor-pointer right-10 top-6' onClick={() => setShowSidebar(!showSidebar)}>
+            <button className=' z-30 flex items-center cursor-pointer right-10 top-6' onClick={() => setShowSidebar(!showSidebar)}>
               <IoMenu size={30}/>
             </button>
         ):

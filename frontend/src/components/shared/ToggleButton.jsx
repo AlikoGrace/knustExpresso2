@@ -14,7 +14,7 @@ const ToggleSwitch = () => {
       <span
         onClick={() => setIsStudents(true)}
         className={`toggle-label cursor-pointer ${
-          isStudents ? 'text-white bg-yellow-500' : 'text-gray-800 bg-gray-200'
+          isStudents ? 'text-white bg-green-500' : 'text-gray-800 bg-gray-200'
         }`}
       >
         Students
