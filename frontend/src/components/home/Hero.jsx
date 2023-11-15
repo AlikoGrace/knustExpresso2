@@ -19,22 +19,23 @@ const Hero = () => {
       <section className='flex flex-col max-container padding-x items-center pt-3'>
       
         <div className=' flex flex-col items-center  mx-auto max-w-[729px] text-center'>
-          <h1 className='font-bold text-4xl leading-[60px]'>Requesting Academic Letters Made Simple</h1>
-          <p className='text-center text-[15px] font-extralight leading-[20px] py-3'>Simplify your academic journey with knustExpresso <br />
+          <h1 className='font-bold lg:text-4xl  text-3xl leading-8 sm:leading-[40px]'>Requesting Academic Letters Made Simple</h1>
+          <p className='text-center lg:text-[15px] text-[13px] font-extralight leading-[20px] py-3'>Simplify your academic journey with knustExpresso <br />
            where requesting academic letters is quick, easy, and hassle-free.</p>
            <Button name='Request a letter'/>
            
         </div>
-        <div className='grid grid-cols-3 gap-4 pt-10 h-1/2 '>
+        
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 pt-10 h-1/2  '>
           <div className='grid grid-cols-2 gap-4'>
             <img src={image1} alt="" className='w-[215px] h-[236px]' />
             <img src={image2} alt="" className='w-[215px] h-[236px]'  />
             <img src={image3} alt="" className='grid col-span-2 h-[236px] w-[449px]' />
           </div>
-            <img src={image4} alt="" className='w-[449px]  h-[488px]' />
-            <div className='grid gap-4'>
-              <img src={image5} alt="" className='w-[275px] h-[236px]' />
-              <img src={image6} alt="" />
+            <img src={image4} alt="" className='w-[449px]  h-[488px] lg:block hidden' />
+            <div className=' gap-4 hidden lg:block'>
+              <img src={image5} alt="" className='w-[275px] h-[236px] mb-4' />
+              <img src={image6} alt=""  />
             </div>
         </div>
       </section>

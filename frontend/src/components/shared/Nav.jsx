@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 const Nav = () => {
   return (
     <header >
-      <nav className='flex  justify-between py-4 px-10 items-center border  border-b-filter drop-shadow-0-3-7-rgba-0-0-0-10'>
+      <nav className='flex  justify-between py-4 lg:px-10 px-5 items-center border  border-b-filter drop-shadow-0-3-7-rgba-0-0-0-10'>
         <img src={logo} alt="logo" className='h-12'/>
         <div className='hidden md:flex justify-between items-center'>
         <ul className='flex'>

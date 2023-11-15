@@ -8,7 +8,7 @@ import servicesData from './ServicesData';
 const Services = () => {
   return (
     <section id='services' className="flex flex-col bg-black text-white  items-center">
-      <h1 className="text-4xl  leading-[50px]font-bold my-10">
+      <h1 className=" lg:text-4xl text-3xl leading-[40px] lg:leading-[50px] font-bold my-10 text-center">
         The ultimate platform for <br />
         all research enthusiasts
       </h1>
