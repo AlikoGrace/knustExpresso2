@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../assets/images/logo.png'
 import Button from './Button'
 import Sidebar from './Sidebar'
+import { Link } from 'react-scroll';
 
 const Nav = () => {
   return (
@@ -10,9 +11,9 @@ const Nav = () => {
         <img src={logo} alt="logo" className='h-12'/>
         <div className='hidden md:flex justify-between items-center'>
         <ul className='flex'>
-            <li className='mr-5  hover:text-gray-600 duration-500 cursor-pointer'>About Us</li>
-            <li className='mr-5 hover:text-gray-600 duration-500 cursor-pointer'>Services</li>
-            <li className='mr-5 hover:text-gray-600 duration-500 cursor-pointer'>Blog</li>
+            <li className='mr-5  hover:text-gray-600 duration-500 cursor-pointer'><Link to='about' >About Us</Link></li>
+            <li className='mr-5 hover:text-gray-600 duration-500 cursor-pointer'><Link to='services' >Services</Link></li>
+            <li className='mr-5 hover:text-gray-600 duration-500 cursor-pointer'><Link to='community' >community</Link></li>
         </ul>
           <Button name='sign up'/>
           </div>

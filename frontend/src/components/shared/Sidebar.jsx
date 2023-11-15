@@ -33,7 +33,7 @@ const Sidebar = () => {
                 <li className='mb-10 hover:text-gray-600 duration-500 cursor-pointer'>Services</li>
                 <li className='mb-10 hover:text-gray-600 duration-500 cursor-pointer'>Blog</li>
               </ul>
-              <Button className='mt-4 text-sm btn-s' name='sign up' />
+              {/* <Button className='mt-4 text-sm btn-s' name='sign up' /> */}
             </div>
           </div>
       </>

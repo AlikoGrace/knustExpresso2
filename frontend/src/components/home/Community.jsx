@@ -3,7 +3,7 @@ import Button from '../shared/Button'
 
 const Community = () => {
   return (
-    <section className='flex flex-col items-center pt-10 mb-10'>
+    <section id='community' className='flex flex-col items-center pt-10 mb-10'>
         <div>
             <img src={avatars} alt="" className='h-12 ' />
         </div>
