@@ -25,9 +25,9 @@ const Hero = () => {
            <Button name='Request a letter'/>
            
         </div>
-        
+        <div className='flex items-center'>
         <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 pt-10 h-1/2  '>
-          <div className='grid grid-cols-2 gap-4'>
+          <div className='grid grid-cols-2 gap-2 lg:gap-4 px-5'>
             <img src={image1} alt="" className='w-[215px] h-[236px]' />
             <img src={image2} alt="" className='w-[215px] h-[236px]'  />
             <img src={image3} alt="" className='grid col-span-2 h-[236px] w-[449px]' />
@@ -37,6 +37,7 @@ const Hero = () => {
               <img src={image5} alt="" className='w-[275px] h-[236px] mb-4' />
               <img src={image6} alt=""  />
             </div>
+        </div>
         </div>
       </section>
     </div>
