@@ -4,7 +4,7 @@
 
 import { HiBriefcase, HiMail, HiChatAlt, HiPhone, HiDocumentText, HiUsers } from 'react-icons/hi';
 
-const servicesData = [
+const servicesDataStudents = [
   {
     icon: HiBriefcase,
     title: 'Direct Messaging',
@@ -38,4 +38,4 @@ const servicesData = [
   // Add more objects as needed
 ];
 
-export default servicesData;
+export default servicesDataStudents;
