@@ -4,7 +4,7 @@ const SignIn = () => {
   return (
     <>
      <div className='flex items-center justify-center h-screen'>
-        <div className='min-w-fit flex-col border bg-white px-10 py-7 shadow-md rounded-[4px]'>
+        <div className='min-w-fit flex-col lg:border bg-white px-10 py-7 lg:shadow-md lg:rounded-[4px]'>
             <div className='mb-8 flex justify-center'>
                 <img src={knustLogo} alt="logo" className='w-24'/>
             </div>
